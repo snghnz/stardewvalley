@@ -1,3 +1,5 @@
 body{
     background-image: url(kepek/bg1.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
