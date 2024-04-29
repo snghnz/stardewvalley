@@ -9,4 +9,9 @@ body{
 }
 .card{
     margin: 10px;
+    background-image: url(kepek/charachterbackground.PNG);
+    border: 10px solid transparent;
+    border-image: url(kepek/characterborder.PNG);
+    border-image-repeat: repeat ;
+    border-image-slice: 30;
 }
