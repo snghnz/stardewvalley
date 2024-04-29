@@ -9,6 +9,7 @@ body{
 }
 .meow{
     padding: 30px;
-    margin: 50px;
-    background-color: rgba(128, 185, 24);
+    margin: 10px;
+    color: rgb(173, 232, 244);
+    font-size: larger;
 }
