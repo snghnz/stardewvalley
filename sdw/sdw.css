@@ -1,5 +1,5 @@
 body{
-    background-image: url(kepek/yes.jpg);
+    background-image: url(kepek/bg_1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
@@ -14,4 +14,9 @@ body{
     border-image: url(kepek/characterborder.PNG);
     border-image-repeat: repeat ;
     border-image-slice: 30;
+}
+.meow{
+    padding: 30px;
+    margin: 50px;
+    background-color: rgba(128, 185, 24);
 }
