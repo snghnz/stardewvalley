@@ -8,15 +8,25 @@ body{
     border: 10px;
 }
 .card{
-    margin: 10px;
+    margin: 30px;
     background-image: url(kepek/charachterbackground.PNG);
     border: 10px solid transparent;
     border-image: url(kepek/characterborder.PNG);
     border-image-repeat: repeat ;
     border-image-slice: 30;
+    padding: 20px;
 }
 .meow{
     padding: 30px;
     margin: 50px;
     background-color: rgba(128, 185, 24);
+}
+.card-img-top{
+    border: 3px solid black;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.card-group{
+    margin: 10px;
 }
