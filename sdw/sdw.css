@@ -21,3 +21,13 @@ body{
     color: rgb(173, 232, 244);
     font-size: larger;
 }
+.mi{
+    font-variant: normal;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+a :hover{
+    color: #75975e;
+    text-decoration: overline;
+}
