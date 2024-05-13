@@ -32,5 +32,19 @@ body{
     margin: 10px;
 }
 .mi{
-    
+    font-variant: normal;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+a :hover{
+    color: #75975e;
+    text-decoration: overline;
+
+}
+footer{
+    text-align: center;
+}
+footer{
+    text-align: center;
 }
