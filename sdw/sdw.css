@@ -15,12 +15,15 @@ body{
     border-image-repeat: repeat ;
     border-image-slice: 30;
     padding: 20px;
-    font-size: 1em;
 }
 .meow{
     padding: 30px;
     margin: 50px;
-    background-color: rgba(128, 185, 24);
+    color: rgb(4, 12, 29);
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+
 }
 .card-img-top{
     border: 3px solid black;
@@ -30,6 +33,9 @@ body{
 }
 .card-group{
     margin: 10px;
+    margin: 10px;
+    color: rgb(173, 232, 244);
+    font-size: larger;
 }
 .mi{
     font-variant: normal;
@@ -40,11 +46,8 @@ body{
 a :hover{
     color: #75975e;
     text-decoration: overline;
+}
+footer{
+    text-align: center;
+}
 
-}
-footer{
-    text-align: center;
-}
-footer{
-    text-align: center;
-}
