@@ -9,111 +9,35 @@
     <link rel="stylesheet" href="sdw.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light text-dark">
-        <h1 class="mx-2">Stardew Valley</h1>
-        <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-4">
-              <a class="nav-link" href="index.html">Homepage</a>
-            </li>
-            <li class="nav-item mx-4 active">
-              <a class="nav-link" href="chars.html">Characters</a>
-            </li>
-            <li class="nav-item mx-4">
-              <a class="nav-link" href="quiz.html">Quiz</a>
-            </li>
-            <li class="nav-item mx-4">
-              <a class="nav-link" href="#">?</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <div class="mx-auto">
-
-      
-      <div class="mx-auto">
-        <h1>Stardew Valley Kvíz</h1>
-
-<div id="quiz"></div>
-
-<button id="submit">Küldés</button>
-
-<script>
-const questions = [
-  {
-    question: "Melyik évben jelent meg először a Stardew Valley?",
-    answers: {
-      a: "2015",
-      b: "2016",
-      c: "2017"
-    },
-    correctAnswer: "b"
-  },
-  // Folytasd a többi kérdéssel...
-];
-
-function buildQuiz() {
-  const output = [];
-
-  questions.forEach((currentQuestion, questionNumber) => {
-    const answers = [];
-
-    for (const letter in currentQuestion.answers) {
-      answers.push(
-        `<label>
-          <input type="radio" name="question${questionNumber}" value="${letter}">
-          ${letter} :
-          ${currentQuestion.answers[letter]}
-        </label>`
-      );
-    }
-
-    output.push(
-      `<div class="question"> ${currentQuestion.question} </div>
-      <div class="answers"> ${answers.join("")} </div>`
-    );
-  });
-
-  quizContainer.innerHTML = output.join("");
-}
-
-function showResults() {
-  const answerContainers = quizContainer.querySelectorAll(".answers");
-
-  let numCorrect = 0;
-
-  questions.forEach((currentQuestion, questionNumber) => {
-    const answerContainer = answerContainers[questionNumber];
-    const selector = `input[name=question${questionNumber}]:checked`;
-    const userAnswer = (answerContainer.querySelector(selector) || {}).value;
-
-    if (userAnswer === currentQuestion.correctAnswer) {
-      numCorrect++;
-      answerContainers[questionNumber].style.color = "lightgreen";
-    } else {
-      answerContainers[questionNumber].style.color = "red";
-    }
-  });
-
-  resultsContainer.innerHTML = `${numCorrect} helyes válasz a ${questions.length} kérdésből.`;
-}
-
-const quizContainer = document.getElementById("quiz");
-const resultsContainer = document.getElementById("results");
-const submitButton = document.getElementById("submit");
-
-buildQuiz();
-
-submitButton.addEventListener("click", showResults);
-</script>
-
-      </div>
+  <header>
+    <div>
+      <img src="" alt="">
     </div>
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-dark">
+      <h1 class="mx-2">Stardew Valley</h1>
+      <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="index.html">Homepage</a>
+          </li>
+          <li class="nav-item mx-4 active">
+            <a class="nav-link" href="chars.html">Characters</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="quiz.html">Quiz</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="#">?</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
   
+
 
 
     <footer>
