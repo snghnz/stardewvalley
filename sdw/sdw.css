@@ -1,8 +1,9 @@
 body{
-    background-image: url(kepek/bg_1.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
     color: white;
+    background-image: url(kepek/bg_1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 }
 .hey{
     border: 10px;
@@ -95,4 +96,7 @@ footer{
     width: 20%;
     border: 0;
     border-radius: ;
+}
+.lady{
+    color: #86db4e;
 }
