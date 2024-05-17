@@ -1,9 +1,10 @@
 body{
-    background-image: url(kepek/bg_1.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
     color: white;
+    background-image: url(kepek/bg_1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
+
 .hey{
     border: 10px;
 }
@@ -26,7 +27,6 @@ body{
 
 }
 .card-img-top{
-    border: 3px solid black;
     margin: auto;
     margin-bottom: 20px;
 }
@@ -99,4 +99,16 @@ footer{
     margin: 20px auto;
     cursor: pointer;
     display: block;
+}
+.lady{
+    color: #b22cc4;
+}
+.kiwi{
+    text-align: center;
+}
+.lady{
+    color: #b22cc4;
+}
+.kiwi{
+    text-align: center;
 }
