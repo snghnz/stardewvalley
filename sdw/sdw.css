@@ -92,9 +92,19 @@ footer{
     background: #151854;
     color: white;
     font-weight: bold;
-    width: 20%;
+    width: 30%;
     border: 0;
-    border-radius: ;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px auto;
+    cursor: pointer;
+    display: block;
+}
+.lady{
+    color: #b22cc4;
+}
+.kiwi{
+    text-align: center;
 }
 .lady{
     color: #b22cc4;
