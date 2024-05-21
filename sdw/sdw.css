@@ -2,7 +2,7 @@ body{
     color: white;
     background-image: url(kepek/bg_1.jpg);
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 .hey{
@@ -111,4 +111,14 @@ footer{
 }
 .kiwi{
     text-align: center;
+}
+.bio{
+    text-align: center;
+    margin: 40px;
+}
+.biokep{
+    border: 10px solid transparent;
+    border-image: url(kepek/characterborder.PNG);
+    border-image-repeat: repeat ;
+    border-image-slice: 30;
 }
