@@ -2,7 +2,7 @@ body{
     color: white;
     background-image: url(kepek/bg_1.jpg);
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 .hey{
