@@ -83,9 +83,12 @@ footer{
     text-align: left;
     transition: all 0.3s;
 }
-.btn:hover{
+.btn:hover:not([disabled]){
     background: #222;
     color: #fff;
+}
+.btn:disabled˙{
+    cursor: no-drop;
 }
 #next-btn{
     margin-top: 2%;
@@ -111,4 +114,10 @@ footer{
 }
 .kiwi{
     text-align: center;
+}
+.correct{
+    background-color: greenyellow;
+}
+.incorrect{
+    background-color: red;
 }
