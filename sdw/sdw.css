@@ -174,6 +174,17 @@ footer{
     border-image-repeat: repeat ;
     border-image-slice: 30;
 }
+#button{
+    margin: 5x;
+}
+#caru_div{
+    margin-top: 20x;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px solid black;
+}
 *{
     box-sizing: border-box;
 }
