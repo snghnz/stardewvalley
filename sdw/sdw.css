@@ -3,6 +3,7 @@ body{
     background-image: url(kepek/bg_1.jpg);
     background-size: 100%;
     background-repeat: repeat;
+    background-repeat: repeat;
 }
 
 .hey{
@@ -155,4 +156,25 @@ footer{
         left: -400%;
     }
 
+}
+.bio{
+    text-align: center;
+    margin: 40px;
+}
+.biokep{
+    border: 10px solid transparent;
+    border-image: url(kepek/characterborder.PNG);
+    border-image-repeat: repeat ;
+    border-image-slice: 30;
+}
+#button{
+    margin: 5x;
+}
+#caru_div{
+    margin-top: 20x;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px solid black;
 }
