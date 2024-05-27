@@ -50,16 +50,16 @@ a :hover{
 footer{
     text-align: center;
 }
-.cucc{
+.app{
     background: #fff;
     width: 90%;
     max-width: 600px;
-    margin: 20% auto;
+    margin: 20% auto 0 auto;
     border-radius: 10px;
     padding: 30px;
     color: black;
 }
-.cucc h1{
+.app h1{
     font-size: 300%;
     font-weight: bolder;
     border-bottom: 1px solid grey;
@@ -83,10 +83,15 @@ footer{
     margin-bottom: 2%;
     text-align: left;
     transition: all 0.3s;
+    border-radius: 6px;
+    cursor: pointer;
 }
-.btn:hover{
+.btn:hover:not([disabled]){
     background: #222;
     color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop
 }
 #next-btn{
     margin-top: 2%;
@@ -97,15 +102,17 @@ footer{
     border: 0;
     border-radius: 5px;
     padding: 10px;
-    margin: 20px auto;
+    margin: 20px auto 0 auto;
     cursor: pointer;
-    display: block;
+    display: none;
 }
-.lady{
-    color: #b22cc4;
+.correct{
+    background-color: green;
+    color: white;
 }
-.kiwi{
-    text-align: center;
+.incorrect{
+    background-color: red;
+    color: white;
 }
 .lady{
     color: #b22cc4;
@@ -166,4 +173,7 @@ footer{
     border-image: url(kepek/characterborder.PNG);
     border-image-repeat: repeat ;
     border-image-slice: 30;
+}
+*{
+    box-sizing: border-box;
 }
