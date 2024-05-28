@@ -18,78 +18,23 @@ const questions = [
         ]
     },
     {
-        question: "Hány gyermeke született?",
+        question: "How many characters can you see on our website?",
         answers: [
-            { text: "5", correct: true},
-            { text: "4", correct: false},
-            { text: "0", correct: false},
+            { text: "32", correct: false},
+            { text: "38", correct: false},
+            { text: "43", correct: true},
+            { text: "49", correct: false},
+        ]
+    },
+    {
+        question: "How many marriable characters are there?",
+        answers: [
+            { text: "0, you can't marry anyone", correct: false},
             { text: "6", correct: false},
-        ]
-    },
-    {
-        question: "Hány filmje van körülbelül?",
-        answers: [
-            { text: "kb.75", correct: false},
-            { text: "kb.100", correct: false},
-            { text: "kb.30", correct: false},
-            { text: "kb.50", correct: true},
-        ]
-    },
-    {
-        question: "Hol született?",
-        answers: [
-            { text: "Berlin-ben", correct: false},
-            { text: "Köln-ben", correct: false},
-            { text: "Thal-ban", correct: true},
-            { text: "Bécs-ben", correct: false},
-        ]
-    },
-    {
-        question: "Hányszor nyerte el a Mr.Olympia címet?",
-        answers: [
-            { text: "8", correct: false},
-            { text: "7", correct: true},
-            { text: "6", correct: false},
-            { text: "5", correct: false},
-        ]
-    },
-    {
-        question: "Mi volt a legelső sportja?",
-        answers: [
-            { text: "Úszás", correct: false},
-            { text: "Foci", correct: true},
-            { text: "Súlyemelés", correct: false},
-            { text: "Atlétika", correct: false},
-        ]
-    },
-    {
-        question: "Hány évesen kezdte meg hivatalosan versenykarrierét a súlyemelésben?",
-        answers: [
-            { text: "14", correct: false},
+            { text: "12", correct: true},
             { text: "18", correct: false},
-            { text: "22", correct: false},
-            { text: "17", correct: true},
         ]
     },
-    {
-        question: "Hány forint volt a híres 'Hasta la vista baby' mondata?",
-        answers: [
-            { text: "1 millió", correct: false},
-            { text: "30 millió", correct: true},
-            { text: "0.5 millió", correct: false},
-            { text: "100 millió", correct: false},
-        ]
-    },
-    {
-        question: "Mennyivel nyomott fekve?",
-        answers: [
-            { text: "130kg", correct: false},
-            { text: "510kg", correct: false},
-            { text: "220kg", correct: true},
-            { text: "50kg", correct: false},
-        ]
-    },
-
 ];
 
 const questionElement = document.getElementById("question");
