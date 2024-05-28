@@ -1,20 +1,20 @@
 const questions = [
     {
-        question: "Hány éves Arnold Schwarzenegger?",
+        question: "Who do you inherit the farm from?",
         answers: [
-            { text: "65", correct: false},
-            { text: "76", correct: true},
-            { text: "79", correct: false},
-            { text: "74", correct: false},
+            { text: "Grandpa", correct: true},
+            { text: "Cousin", correct: false},
+            { text: "Father", correct: false},
+            { text: "Uncle", correct: false},
         ]
     },
     {
-        question: "Melyik Amerikai államnak volt a kormányzója?",
+        question: "What is the town called?",
         answers: [
-            { text: "Texas", correct: false},
-            { text: "New Jersey", correct: false},
-            { text: "Florida", correct: false},
-            { text: "Kalifornia", correct: true},
+            { text: "Eagle town", correct: false},
+            { text: "Seagull town", correct: false},
+            { text: "Pelican town", correct: true},
+            { text: "Flamingo town", correct: false},
         ]
     },
     {
