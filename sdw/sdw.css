@@ -188,3 +188,9 @@ footer{
 *{
     box-sizing: border-box;
 }
+.correct{
+    background-color: greenyellow;
+}
+.incorrect{
+    background-color: red;
+}

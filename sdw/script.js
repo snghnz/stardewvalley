@@ -153,9 +153,9 @@ function selectAnswer(e){
 
 function showScore(){
     resetState();
-    questionElement.innerHTML = `you scored ${score} out of ${questions.
+    questionElement.innerHTML = `You scored ${score} out of ${questions.
         length}!`;
-        nextButton.innerHTML = "Újra";
+        nextButton.innerHTML = "Restart";
         nextButton.style.display = "block";
     }
 
