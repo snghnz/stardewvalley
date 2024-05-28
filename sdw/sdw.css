@@ -93,6 +93,11 @@ footer{
 .btn:disabled{
     cursor: no-drop
 }
+
+.btn:active{
+    background-color: yellow;
+}
+
 #next-btn{
     margin-top: 2%;
     background: #151854;
@@ -189,8 +194,8 @@ footer{
     box-sizing: border-box;
 }
 .correct{
-    background-color: greenyellow;
+    background: url(kepek/green.png);
 }
 .incorrect{
-    background-color: red;
+    background: url(kepek/red.png);
 }
