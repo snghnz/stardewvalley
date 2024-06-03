@@ -5,7 +5,10 @@ body{
     background-repeat: repeat;
     background-repeat: repeat;
 }
-
+.vv{
+    background-size: cover;
+    background-position: center;
+}
 .hey{
     border: 10px;
 }
